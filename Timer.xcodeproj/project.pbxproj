@@ -21,6 +21,128 @@
 		A3236B4E272310D3009CEF8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B20272310D1009CEF8E /* Persistence.swift */; };
 		A3236B4F272310D3009CEF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3236B21272310D2009CEF8E /* Assets.xcassets */; };
 		A3236B50272310D3009CEF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3236B21272310D2009CEF8E /* Assets.xcassets */; };
+		A3236B612723111E009CEF8E /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B602723111E009CEF8E /* RepeatingTimer.swift */; };
+		A3236B622723111E009CEF8E /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B602723111E009CEF8E /* RepeatingTimer.swift */; };
+		A3236B632723111E009CEF8E /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B602723111E009CEF8E /* RepeatingTimer.swift */; };
+		A3236B642723111E009CEF8E /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B602723111E009CEF8E /* RepeatingTimer.swift */; };
+		A3236B672723113F009CEF8E /* StopwatchTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B662723113F009CEF8E /* StopwatchTimerView.swift */; };
+		A3236B682723113F009CEF8E /* StopwatchTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B662723113F009CEF8E /* StopwatchTimerView.swift */; };
+		A3236B692723113F009CEF8E /* StopwatchTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B662723113F009CEF8E /* StopwatchTimerView.swift */; };
+		A3236B6A2723113F009CEF8E /* StopwatchTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B662723113F009CEF8E /* StopwatchTimerView.swift */; };
+		A3236B6C27231164009CEF8E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B6B27231164009CEF8E /* TimeView.swift */; };
+		A3236B6D27231164009CEF8E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B6B27231164009CEF8E /* TimeView.swift */; };
+		A3236B6E27231164009CEF8E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B6B27231164009CEF8E /* TimeView.swift */; };
+		A3236B6F27231164009CEF8E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B6B27231164009CEF8E /* TimeView.swift */; };
+		A3236B712723144A009CEF8E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B702723144A009CEF8E /* Time.swift */; };
+		A3236B722723144A009CEF8E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B702723144A009CEF8E /* Time.swift */; };
+		A3236B732723144A009CEF8E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B702723144A009CEF8E /* Time.swift */; };
+		A3236B742723144A009CEF8E /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B702723144A009CEF8E /* Time.swift */; };
+		A3236B7627231D0F009CEF8E /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7527231D0F009CEF8E /* ArcView.swift */; };
+		A3236B7727231D0F009CEF8E /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7527231D0F009CEF8E /* ArcView.swift */; };
+		A3236B7827231D0F009CEF8E /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7527231D0F009CEF8E /* ArcView.swift */; };
+		A3236B7927231D0F009CEF8E /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7527231D0F009CEF8E /* ArcView.swift */; };
+		A3236B7C27232106009CEF8E /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7B27232106009CEF8E /* ArcShape.swift */; };
+		A3236B7D27232106009CEF8E /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7B27232106009CEF8E /* ArcShape.swift */; };
+		A3236B7E27232106009CEF8E /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7B27232106009CEF8E /* ArcShape.swift */; };
+		A3236B7F27232106009CEF8E /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B7B27232106009CEF8E /* ArcShape.swift */; };
+		A3236B81272322B7009CEF8E /* AngleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B80272322B7009CEF8E /* AngleHelper.swift */; };
+		A3236B82272322B7009CEF8E /* AngleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B80272322B7009CEF8E /* AngleHelper.swift */; };
+		A3236B83272322B7009CEF8E /* AngleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B80272322B7009CEF8E /* AngleHelper.swift */; };
+		A3236B84272322B7009CEF8E /* AngleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B80272322B7009CEF8E /* AngleHelper.swift */; };
+		A3236B87272328C1009CEF8E /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B86272328C1009CEF8E /* SwiftExtensions.swift */; };
+		A3236B88272328C1009CEF8E /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B86272328C1009CEF8E /* SwiftExtensions.swift */; };
+		A3236B89272328C1009CEF8E /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B86272328C1009CEF8E /* SwiftExtensions.swift */; };
+		A3236B8A272328C1009CEF8E /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B86272328C1009CEF8E /* SwiftExtensions.swift */; };
+		A3236B8E27233038009CEF8E /* NeumorphicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */; };
+		A3236B8F27233038009CEF8E /* NeumorphicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */; };
+		A3236B9027233038009CEF8E /* NeumorphicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */; };
+		A3236B9127233038009CEF8E /* NeumorphicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */; };
+		A3236B9327233051009CEF8E /* ShadowIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9227233051009CEF8E /* ShadowIntensity.swift */; };
+		A3236B9427233051009CEF8E /* ShadowIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9227233051009CEF8E /* ShadowIntensity.swift */; };
+		A3236B9527233051009CEF8E /* ShadowIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9227233051009CEF8E /* ShadowIntensity.swift */; };
+		A3236B9627233051009CEF8E /* ShadowIntensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9227233051009CEF8E /* ShadowIntensity.swift */; };
+		A3236B9827233455009CEF8E /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9727233455009CEF8E /* VisualEffectBlur.swift */; };
+		A3236B9927233455009CEF8E /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9727233455009CEF8E /* VisualEffectBlur.swift */; };
+		A3236B9A27233455009CEF8E /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9727233455009CEF8E /* VisualEffectBlur.swift */; };
+		A3236B9B27233455009CEF8E /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9727233455009CEF8E /* VisualEffectBlur.swift */; };
+		A3236B9E27233582009CEF8E /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9C27233582009CEF8E /* WindowAccessor.swift */; };
+		A3236BA027233582009CEF8E /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236B9C27233582009CEF8E /* WindowAccessor.swift */; };
+		A3236BA32723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
+		A3236BA42723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
+		A3236BA52723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
+		A3236BA62723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
+		A3236BA827235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
+		A3236BA927235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
+		A3236BAA27235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
+		A3236BAB27235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
+		A3236BAD27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
+		A3236BAE27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
+		A3236BAF27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
+		A3236BB027235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
+		A3236BB227235B35009CEF8E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB127235B35009CEF8E /* AppColor.swift */; };
+		A3236BB327235B35009CEF8E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB127235B35009CEF8E /* AppColor.swift */; };
+		A3236BB427235B35009CEF8E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB127235B35009CEF8E /* AppColor.swift */; };
+		A3236BB527235B35009CEF8E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB127235B35009CEF8E /* AppColor.swift */; };
+		A3236BB727235C3A009CEF8E /* TimerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB627235C3A009CEF8E /* TimerControlsView.swift */; };
+		A3236BB827235C3A009CEF8E /* TimerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB627235C3A009CEF8E /* TimerControlsView.swift */; };
+		A3236BB927235C3A009CEF8E /* TimerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB627235C3A009CEF8E /* TimerControlsView.swift */; };
+		A3236BBA27235C3A009CEF8E /* TimerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BB627235C3A009CEF8E /* TimerControlsView.swift */; };
+		A3236BBC27236262009CEF8E /* TimeKeeperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BBB27236262009CEF8E /* TimeKeeperService.swift */; };
+		A3236BBD27236262009CEF8E /* TimeKeeperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BBB27236262009CEF8E /* TimeKeeperService.swift */; };
+		A3236BBE27236262009CEF8E /* TimeKeeperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BBB27236262009CEF8E /* TimeKeeperService.swift */; };
+		A3236BBF27236262009CEF8E /* TimeKeeperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BBB27236262009CEF8E /* TimeKeeperService.swift */; };
+		A3236BC127236360009CEF8E /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC027236360009CEF8E /* CountdownTimer.swift */; };
+		A3236BC227236360009CEF8E /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC027236360009CEF8E /* CountdownTimer.swift */; };
+		A3236BC327236360009CEF8E /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC027236360009CEF8E /* CountdownTimer.swift */; };
+		A3236BC427236360009CEF8E /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC027236360009CEF8E /* CountdownTimer.swift */; };
+		A3236BC6272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */; };
+		A3236BC7272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */; };
+		A3236BC8272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */; };
+		A3236BC9272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */; };
+		A3236BCF2723B4BC009CEF8E /* MultiArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */; };
+		A3236BD02723B4BC009CEF8E /* MultiArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */; };
+		A3236BD12723B4BC009CEF8E /* MultiArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */; };
+		A3236BD22723B4BC009CEF8E /* MultiArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */; };
+		A3236BD52723B51E009CEF8E /* MultiArcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */; };
+		A3236BD62723B51E009CEF8E /* MultiArcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */; };
+		A3236BD72723B51E009CEF8E /* MultiArcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */; };
+		A3236BD82723B51E009CEF8E /* MultiArcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */; };
+		A3236BDA2723C060009CEF8E /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD92723C060009CEF8E /* ServiceContainer.swift */; };
+		A3236BDB2723C060009CEF8E /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD92723C060009CEF8E /* ServiceContainer.swift */; };
+		A3236BDC2723C060009CEF8E /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD92723C060009CEF8E /* ServiceContainer.swift */; };
+		A3236BDD2723C060009CEF8E /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BD92723C060009CEF8E /* ServiceContainer.swift */; };
+		A3236BE02723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
+		A3236BE12723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
+		A3236BE22723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
+		A3236BE32723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
+		A3F7549A272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
+		A3F7549B272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
+		A3F7549C272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
+		A3F7549D272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
+		A3F7549F272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */; };
+		A3F754A0272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */; };
+		A3F754A1272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */; };
+		A3F754A2272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */; };
+		A3F754A42724835D0092A6D8 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A32724835D0092A6D8 /* ClockView.swift */; };
+		A3F754A52724835D0092A6D8 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A32724835D0092A6D8 /* ClockView.swift */; };
+		A3F754A62724835D0092A6D8 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A32724835D0092A6D8 /* ClockView.swift */; };
+		A3F754A72724835D0092A6D8 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A32724835D0092A6D8 /* ClockView.swift */; };
+		A3F754A92724836B0092A6D8 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A82724836B0092A6D8 /* ClockViewModel.swift */; };
+		A3F754AA2724836B0092A6D8 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A82724836B0092A6D8 /* ClockViewModel.swift */; };
+		A3F754AB2724836B0092A6D8 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A82724836B0092A6D8 /* ClockViewModel.swift */; };
+		A3F754AC2724836B0092A6D8 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754A82724836B0092A6D8 /* ClockViewModel.swift */; };
+		A3F754AF2724DE320092A6D8 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754AE2724DE320092A6D8 /* Marker.swift */; };
+		A3F754B02724DE320092A6D8 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754AE2724DE320092A6D8 /* Marker.swift */; };
+		A3F754B12724DE320092A6D8 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754AE2724DE320092A6D8 /* Marker.swift */; };
+		A3F754B22724DE320092A6D8 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754AE2724DE320092A6D8 /* Marker.swift */; };
+		A3F754B42724E6910092A6D8 /* ArcMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B32724E6910092A6D8 /* ArcMarker.swift */; };
+		A3F754B52724E6910092A6D8 /* ArcMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B32724E6910092A6D8 /* ArcMarker.swift */; };
+		A3F754B62724E6910092A6D8 /* ArcMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B32724E6910092A6D8 /* ArcMarker.swift */; };
+		A3F754B72724E6910092A6D8 /* ArcMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B32724E6910092A6D8 /* ArcMarker.swift */; };
+		A3F754B92724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
+		A3F754BA2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
+		A3F754BB2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
+		A3F754BC2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +177,37 @@
 		A3236B3F272310D3009CEF8E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3236B43272310D3009CEF8E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A3236B45272310D3009CEF8E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A3236B602723111E009CEF8E /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		A3236B662723113F009CEF8E /* StopwatchTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTimerView.swift; sourceTree = "<group>"; };
+		A3236B6B27231164009CEF8E /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		A3236B702723144A009CEF8E /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		A3236B7527231D0F009CEF8E /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		A3236B7B27232106009CEF8E /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		A3236B80272322B7009CEF8E /* AngleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleHelper.swift; sourceTree = "<group>"; };
+		A3236B86272328C1009CEF8E /* SwiftExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
+		A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicShadow.swift; sourceTree = "<group>"; };
+		A3236B9227233051009CEF8E /* ShadowIntensity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowIntensity.swift; sourceTree = "<group>"; };
+		A3236B9727233455009CEF8E /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		A3236B9C27233582009CEF8E /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAccessor.swift; sourceTree = "<group>"; };
+		A3236BA22723484E009CEF8E /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
+		A3236BA727235198009CEF8E /* StrokedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokedText.swift; sourceTree = "<group>"; };
+		A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		A3236BB127235B35009CEF8E /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		A3236BB627235C3A009CEF8E /* TimerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerControlsView.swift; sourceTree = "<group>"; };
+		A3236BBB27236262009CEF8E /* TimeKeeperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperService.swift; sourceTree = "<group>"; };
+		A3236BC027236360009CEF8E /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTimerViewModel.swift; sourceTree = "<group>"; };
+		A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiArcView.swift; sourceTree = "<group>"; };
+		A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiArcViewModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A3236BD92723C060009CEF8E /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSelectorView.swift; sourceTree = "<group>"; };
+		A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSelectorViewModel.swift; sourceTree = "<group>"; };
+		A3F754A32724835D0092A6D8 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		A3F754A82724836B0092A6D8 /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		A3F754AE2724DE320092A6D8 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		A3F754B32724E6910092A6D8 /* ArcMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMarker.swift; sourceTree = "<group>"; };
+		A3F754B82724E9630092A6D8 /* ArcMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMarkers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +259,12 @@
 				A3236B1E272310D1009CEF8E /* TimerApp.swift */,
 				A3236B1F272310D1009CEF8E /* ContentView.swift */,
 				A3236B20272310D1009CEF8E /* Persistence.swift */,
+				A3236B5F272310FF009CEF8E /* Logic */,
+				A3236B652723112D009CEF8E /* Views */,
+				A3236B8B27233017009CEF8E /* SwiftUI */,
 				A3236B21272310D2009CEF8E /* Assets.xcassets */,
 				A3236B1C272310D1009CEF8E /* Timer.xcdatamodeld */,
+				A3236BD92723C060009CEF8E /* ServiceContainer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -147,6 +304,177 @@
 				A3236B45272310D3009CEF8E /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A3236B5F272310FF009CEF8E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BCB2723B1F4009CEF8E /* Services */,
+				A3236BCA2723ACD6009CEF8E /* Timers */,
+				A3236B85272328A7009CEF8E /* SwiftExtensions */,
+				A3236B702723144A009CEF8E /* Time.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		A3236B652723112D009CEF8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BCD2723B39B009CEF8E /* Componenets */,
+				A3236BE527247F2E009CEF8E /* Interfaces */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3236B7A272320F1009CEF8E /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B7B27232106009CEF8E /* ArcShape.swift */,
+				A3F754AE2724DE320092A6D8 /* Marker.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		A3236B85272328A7009CEF8E /* SwiftExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B86272328C1009CEF8E /* SwiftExtensions.swift */,
+			);
+			path = SwiftExtensions;
+			sourceTree = "<group>";
+		};
+		A3236B8B27233017009CEF8E /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B80272322B7009CEF8E /* AngleHelper.swift */,
+				A3236BB127235B35009CEF8E /* AppColor.swift */,
+				A3236B8C27233025009CEF8E /* Neumorphic */,
+				A3236B9227233051009CEF8E /* ShadowIntensity.swift */,
+				A3236B7A272320F1009CEF8E /* Shapes */,
+				A3236BA127234835009CEF8E /* Text */,
+				A3236B9727233455009CEF8E /* VisualEffectBlur.swift */,
+				A3236B9C27233582009CEF8E /* WindowAccessor.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		A3236B8C27233025009CEF8E /* Neumorphic */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B8D27233038009CEF8E /* NeumorphicShadow.swift */,
+				A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */,
+			);
+			path = Neumorphic;
+			sourceTree = "<group>";
+		};
+		A3236BA127234835009CEF8E /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BA22723484E009CEF8E /* AttributedText.swift */,
+				A3236BA727235198009CEF8E /* StrokedText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		A3236BCA2723ACD6009CEF8E /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BC027236360009CEF8E /* CountdownTimer.swift */,
+				A3236B602723111E009CEF8E /* RepeatingTimer.swift */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		A3236BCB2723B1F4009CEF8E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BBB27236262009CEF8E /* TimeKeeperService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A3236BCC2723B370009CEF8E /* StopwatchTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B662723113F009CEF8E /* StopwatchTimerView.swift */,
+				A3236BC5272365B3009CEF8E /* StopwatchTimerViewModel.swift */,
+			);
+			path = StopwatchTimer;
+			sourceTree = "<group>";
+		};
+		A3236BCD2723B39B009CEF8E /* Componenets */ = {
+			isa = PBXGroup;
+			children = (
+				A3F754972724814C0092A6D8 /* ArcShape */,
+				A3236BDE2723D8D0009CEF8E /* TimeView */,
+				A3236BB627235C3A009CEF8E /* TimerControlsView.swift */,
+			);
+			path = Componenets;
+			sourceTree = "<group>";
+		};
+		A3236BD32723B500009CEF8E /* MultiArcView */ = {
+			isa = PBXGroup;
+			children = (
+				A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */,
+				A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */,
+			);
+			path = MultiArcView;
+			sourceTree = "<group>";
+		};
+		A3236BDE2723D8D0009CEF8E /* TimeView */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B6B27231164009CEF8E /* TimeView.swift */,
+				A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */,
+			);
+			path = TimeView;
+			sourceTree = "<group>";
+		};
+		A3236BE427247F18009CEF8E /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				A3F754A32724835D0092A6D8 /* ClockView.swift */,
+				A3F754A82724836B0092A6D8 /* ClockViewModel.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		A3236BE527247F2E009CEF8E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A3F75498272481790092A6D8 /* InterfaceSelector */,
+				A3236BE427247F18009CEF8E /* Clock */,
+				A3236BCC2723B370009CEF8E /* StopwatchTimer */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		A3F754972724814C0092A6D8 /* ArcShape */ = {
+			isa = PBXGroup;
+			children = (
+				A3236B7527231D0F009CEF8E /* ArcView.swift */,
+				A3236BD32723B500009CEF8E /* MultiArcView */,
+				A3F754AD2724DE0F0092A6D8 /* ArcMarker */,
+			);
+			path = ArcShape;
+			sourceTree = "<group>";
+		};
+		A3F75498272481790092A6D8 /* InterfaceSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */,
+				A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */,
+			);
+			path = InterfaceSelector;
+			sourceTree = "<group>";
+		};
+		A3F754AD2724DE0F0092A6D8 /* ArcMarker */ = {
+			isa = PBXGroup;
+			children = (
+				A3F754B32724E6910092A6D8 /* ArcMarker.swift */,
+				A3F754B82724E9630092A6D8 /* ArcMarkers.swift */,
+			);
+			path = ArcMarker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +635,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3236BD52723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
+				A3F754A42724835D0092A6D8 /* ClockView.swift in Sources */,
+				A3236B9827233455009CEF8E /* VisualEffectBlur.swift in Sources */,
+				A3236BB727235C3A009CEF8E /* TimerControlsView.swift in Sources */,
+				A3236BDA2723C060009CEF8E /* ServiceContainer.swift in Sources */,
+				A3236BC127236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A3236BB227235B35009CEF8E /* AppColor.swift in Sources */,
+				A3236BC6272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
+				A3F754B92724E9630092A6D8 /* ArcMarkers.swift in Sources */,
 				A3236B47272310D3009CEF8E /* Timer.xcdatamodeld in Sources */,
+				A3F754B42724E6910092A6D8 /* ArcMarker.swift in Sources */,
+				A3F754AF2724DE320092A6D8 /* Marker.swift in Sources */,
 				A3236B4D272310D3009CEF8E /* Persistence.swift in Sources */,
+				A3236B7627231D0F009CEF8E /* ArcView.swift in Sources */,
+				A3236B712723144A009CEF8E /* Time.swift in Sources */,
 				A3236B49272310D3009CEF8E /* TimerApp.swift in Sources */,
+				A3236BAD27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
+				A3236BBC27236262009CEF8E /* TimeKeeperService.swift in Sources */,
+				A3236B87272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
+				A3236BA827235198009CEF8E /* StrokedText.swift in Sources */,
+				A3236B8E27233038009CEF8E /* NeumorphicShadow.swift in Sources */,
+				A3236BE02723D97A009CEF8E /* TimeViewModel.swift in Sources */,
+				A3236BA32723484E009CEF8E /* AttributedText.swift in Sources */,
+				A3236B672723113F009CEF8E /* StopwatchTimerView.swift in Sources */,
+				A3236BCF2723B4BC009CEF8E /* MultiArcView.swift in Sources */,
+				A3236B7C27232106009CEF8E /* ArcShape.swift in Sources */,
+				A3236B6C27231164009CEF8E /* TimeView.swift in Sources */,
+				A3F754A92724836B0092A6D8 /* ClockViewModel.swift in Sources */,
 				A3236B4B272310D3009CEF8E /* ContentView.swift in Sources */,
+				A3F7549A272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
+				A3236B9327233051009CEF8E /* ShadowIntensity.swift in Sources */,
+				A3236B81272322B7009CEF8E /* AngleHelper.swift in Sources */,
+				A3236B612723111E009CEF8E /* RepeatingTimer.swift in Sources */,
+				A3F7549F272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +676,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3236B9927233455009CEF8E /* VisualEffectBlur.swift in Sources */,
+				A3236BB827235C3A009CEF8E /* TimerControlsView.swift in Sources */,
+				A3F754B52724E6910092A6D8 /* ArcMarker.swift in Sources */,
+				A3236BC227236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A3236BE12723D97A009CEF8E /* TimeViewModel.swift in Sources */,
+				A3236BB327235B35009CEF8E /* AppColor.swift in Sources */,
+				A3236BC7272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
 				A3236B48272310D3009CEF8E /* Timer.xcdatamodeld in Sources */,
+				A3F754AA2724836B0092A6D8 /* ClockViewModel.swift in Sources */,
 				A3236B4E272310D3009CEF8E /* Persistence.swift in Sources */,
+				A3236B7727231D0F009CEF8E /* ArcView.swift in Sources */,
+				A3F754BA2724E9630092A6D8 /* ArcMarkers.swift in Sources */,
+				A3236B722723144A009CEF8E /* Time.swift in Sources */,
+				A3F7549B272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
 				A3236B4A272310D3009CEF8E /* TimerApp.swift in Sources */,
+				A3236BAE27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
+				A3F754A52724835D0092A6D8 /* ClockView.swift in Sources */,
+				A3236BBD27236262009CEF8E /* TimeKeeperService.swift in Sources */,
+				A3F754A0272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
+				A3236B88272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
+				A3236BA927235198009CEF8E /* StrokedText.swift in Sources */,
+				A3236BD02723B4BC009CEF8E /* MultiArcView.swift in Sources */,
+				A3236B8F27233038009CEF8E /* NeumorphicShadow.swift in Sources */,
+				A3236BA42723484E009CEF8E /* AttributedText.swift in Sources */,
+				A3236BD62723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
+				A3236B682723113F009CEF8E /* StopwatchTimerView.swift in Sources */,
+				A3236B7D27232106009CEF8E /* ArcShape.swift in Sources */,
+				A3236B9E27233582009CEF8E /* WindowAccessor.swift in Sources */,
+				A3236BDB2723C060009CEF8E /* ServiceContainer.swift in Sources */,
+				A3236B6D27231164009CEF8E /* TimeView.swift in Sources */,
 				A3236B4C272310D3009CEF8E /* ContentView.swift in Sources */,
+				A3F754B02724DE320092A6D8 /* Marker.swift in Sources */,
+				A3236B9427233051009CEF8E /* ShadowIntensity.swift in Sources */,
+				A3236B82272322B7009CEF8E /* AngleHelper.swift in Sources */,
+				A3236B622723111E009CEF8E /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +718,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F754B62724E6910092A6D8 /* ArcMarker.swift in Sources */,
+				A3236B83272322B7009CEF8E /* AngleHelper.swift in Sources */,
+				A3236B9527233051009CEF8E /* ShadowIntensity.swift in Sources */,
+				A3236B7E27232106009CEF8E /* ArcShape.swift in Sources */,
+				A3236BBE27236262009CEF8E /* TimeKeeperService.swift in Sources */,
+				A3236B9027233038009CEF8E /* NeumorphicShadow.swift in Sources */,
 				A3236B3A272310D3009CEF8E /* Tests_iOSLaunchTests.swift in Sources */,
+				A3236B6E27231164009CEF8E /* TimeView.swift in Sources */,
+				A3236BC8272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
+				A3F754AB2724836B0092A6D8 /* ClockViewModel.swift in Sources */,
+				A3236B7827231D0F009CEF8E /* ArcView.swift in Sources */,
+				A3236BE22723D97A009CEF8E /* TimeViewModel.swift in Sources */,
+				A3F7549C272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
+				A3236B9A27233455009CEF8E /* VisualEffectBlur.swift in Sources */,
+				A3236BD72723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
+				A3236BC327236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A3236BD12723B4BC009CEF8E /* MultiArcView.swift in Sources */,
+				A3236B732723144A009CEF8E /* Time.swift in Sources */,
+				A3236BA52723484E009CEF8E /* AttributedText.swift in Sources */,
+				A3236BB927235C3A009CEF8E /* TimerControlsView.swift in Sources */,
+				A3236B632723111E009CEF8E /* RepeatingTimer.swift in Sources */,
+				A3236B89272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
+				A3F754BB2724E9630092A6D8 /* ArcMarkers.swift in Sources */,
+				A3236BAA27235198009CEF8E /* StrokedText.swift in Sources */,
+				A3236BAF27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
 				A3236B38272310D3009CEF8E /* Tests_iOS.swift in Sources */,
+				A3F754A1272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
+				A3236BDC2723C060009CEF8E /* ServiceContainer.swift in Sources */,
+				A3F754A62724835D0092A6D8 /* ClockView.swift in Sources */,
+				A3236B692723113F009CEF8E /* StopwatchTimerView.swift in Sources */,
+				A3236BB427235B35009CEF8E /* AppColor.swift in Sources */,
+				A3F754B12724DE320092A6D8 /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +757,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3236B84272322B7009CEF8E /* AngleHelper.swift in Sources */,
+				A3236BE32723D97A009CEF8E /* TimeViewModel.swift in Sources */,
+				A3F754B72724E6910092A6D8 /* ArcMarker.swift in Sources */,
+				A3236B9627233051009CEF8E /* ShadowIntensity.swift in Sources */,
+				A3236B7F27232106009CEF8E /* ArcShape.swift in Sources */,
+				A3236BBF27236262009CEF8E /* TimeKeeperService.swift in Sources */,
+				A3F754BC2724E9630092A6D8 /* ArcMarkers.swift in Sources */,
+				A3236BD22723B4BC009CEF8E /* MultiArcView.swift in Sources */,
+				A3236B9127233038009CEF8E /* NeumorphicShadow.swift in Sources */,
+				A3F754B22724DE320092A6D8 /* Marker.swift in Sources */,
 				A3236B46272310D3009CEF8E /* Tests_macOSLaunchTests.swift in Sources */,
+				A3236B6F27231164009CEF8E /* TimeView.swift in Sources */,
+				A3236BA027233582009CEF8E /* WindowAccessor.swift in Sources */,
+				A3236BC9272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
+				A3236B7927231D0F009CEF8E /* ArcView.swift in Sources */,
+				A3236B9B27233455009CEF8E /* VisualEffectBlur.swift in Sources */,
+				A3236BC427236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A3236B742723144A009CEF8E /* Time.swift in Sources */,
+				A3236BDD2723C060009CEF8E /* ServiceContainer.swift in Sources */,
+				A3236BA62723484E009CEF8E /* AttributedText.swift in Sources */,
+				A3236BD82723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
+				A3236BBA27235C3A009CEF8E /* TimerControlsView.swift in Sources */,
+				A3236B642723111E009CEF8E /* RepeatingTimer.swift in Sources */,
+				A3236B8A272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
+				A3236BAB27235198009CEF8E /* StrokedText.swift in Sources */,
+				A3236BB027235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
+				A3F754A72724835D0092A6D8 /* ClockView.swift in Sources */,
+				A3F7549D272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
 				A3236B44272310D3009CEF8E /* Tests_macOS.swift in Sources */,
+				A3236B6A2723113F009CEF8E /* StopwatchTimerView.swift in Sources */,
+				A3F754A2272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
+				A3236BB527235B35009CEF8E /* AppColor.swift in Sources */,
+				A3F754AC2724836B0092A6D8 /* ClockViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +935,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +965,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,7 +999,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssw.timer.Timer;
 				PRODUCT_NAME = Timer;
@@ -577,7 +1027,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssw.timer.Timer;
 				PRODUCT_NAME = Timer;
