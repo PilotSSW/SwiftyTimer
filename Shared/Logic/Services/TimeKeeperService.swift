@@ -18,11 +18,11 @@ class TimeKeeperService: ObservableObject {
     private var subscriptions: [UUID: (callback: (() -> Void), allowsGlobalDispatchQueue: Bool)] = [:]
     
     init() {
-        self.timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: { [weak self] timer in
+        self.timer = Timer.scheduledTimer(withTimeInterval: 1 / 30, repeats: true, block: { [weak self] timer in
             guard let self = self else { return }
             self.callRegisteredCallbacks()
         })
-        timer.tolerance = 0.0025
+        timer.tolerance = 1 / 240
     }
 }
 

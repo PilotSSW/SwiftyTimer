@@ -25,13 +25,13 @@ struct StopWatchTimerView: View {
                         .padding(10)
                 }
                 
-                if let clockViewModel = viewModel.timeViewModel {
-                    TimeView(viewModel: clockViewModel, textColor: .black.opacity(0.95))
+                if let timeViewModel = viewModel.timeViewModel {
+                    TimeView(viewModel: timeViewModel, textColor: .black.opacity(0.95))
                         .frame(minWidth: 250, maxWidth: .infinity, minHeight: 250, maxHeight: .infinity, alignment: .center)
                         .padding(50)
-                        .neumorphicShadow(shadowIntensity: .tooFuckingStrong, radius: 1, lightColor: .orange, darkColor: .pink)
-                        .neumorphicShadow(shadowIntensity: .veryStrong, radius: 5, lightColor: .blue, darkColor: .purple, x: 5, y: 0)
-                        .neumorphicShadow(shadowIntensity: .strong, radius: 90, lightColor: .green, darkColor: .blue, x: 0, y: 50)
+                        .neumorphicShadow(shadowIntensity: .mediumLight, radius: 1, lightColor: .orange, darkColor: .pink)
+                        .neumorphicShadow(shadowIntensity: .mediumStrong, radius: 5, lightColor: .blue, darkColor: .purple, x: 5, y: 0)
+                        .neumorphicShadow(shadowIntensity: .veryStrong, radius: 90, lightColor: .green, darkColor: .blue, x: 0, y: 50)
 
                 }
             }

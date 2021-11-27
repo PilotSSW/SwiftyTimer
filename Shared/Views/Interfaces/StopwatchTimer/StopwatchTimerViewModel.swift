@@ -26,7 +26,7 @@ class StopWatchTimerViewModel: ObservableObject {
     func start() {
         startTime = Date()
         time = Time.Amount(totalSeconds: 0)
-        multiArcViewModel = MultiArcViewModel(withTime: time)
+        multiArcViewModel = MultiArcViewModel(withTime: time, withTimeComponents: [.millisecond, .second, .minute, .hour, .day, .week])
         timeViewModel = TimeViewModel(withTime: time)
         
         do {

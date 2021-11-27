@@ -12,7 +12,6 @@ struct ClockView: View {
     
     init(withViewModel viewModel: ClockViewModel = ClockViewModel()) {
         self.viewModel = viewModel
-        
     }
     
     var body: some View {
@@ -32,23 +31,25 @@ struct ClockView: View {
                 
                 if let clockViewModel = viewModel.timeViewModel {
                     TimeView(viewModel: clockViewModel, textColor: .black.opacity(0.95))
-                        .padding(.vertical, 190)
+                        .padding(.horizontal, viewModel.clockPadding)
                         .frame(minWidth: 250, maxWidth: .infinity, minHeight: 250, maxHeight: .infinity, alignment: .center)
-                        .neumorphicShadow(shadowIntensity: .tooFuckingStrong, radius: 1, lightColor: .orange, darkColor: .pink)
-                        .neumorphicShadow(shadowIntensity: .veryStrong, radius: 5, lightColor: .blue, darkColor: .purple, x: 5, y: 0)
-                        .neumorphicShadow(shadowIntensity: .strong, radius: 90, lightColor: .green, darkColor: .blue, x: 0, y: 50)
-                    
+                        .neumorphicShadow(shadowIntensity: .mediumLight, radius: 1, lightColor: .orange, darkColor: .pink)
+                        .neumorphicShadow(shadowIntensity: .mediumStrong, radius: 5, lightColor: .blue, darkColor: .purple, x: 5, y: 0)
+                        .neumorphicShadow(shadowIntensity: .veryStrong, radius: 90, lightColor: .green, darkColor: .blue, x: 0, y: 50)
                 }
             }
         }
         .padding(20)
         .aspectRatio(0.85, contentMode: .fit)
-        .animation(.interactiveSpring())
+        .animation(.interactiveSpring(), value: viewModel)
     }
 }
 
 struct ClockView_Previews: PreviewProvider {
     static var previews: some View {
-        ClockView()
+        let timeKeeperService = TimeKeeperService()
+        let viewModel = ClockViewModel(timeKeeperService: timeKeeperService)
+        viewModel.time = Time.Amount(fromDate: Date())
+        return ClockView(withViewModel: viewModel)
     }
 }

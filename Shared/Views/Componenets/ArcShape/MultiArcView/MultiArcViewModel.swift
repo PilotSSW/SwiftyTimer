@@ -7,23 +7,23 @@
 
 import Combine
 import Foundation
+import struct SwiftUI.CGFloat
 
 class MultiArcViewModel: ObservableObject {
     private var store = Set<AnyCancellable>()
-    @Published var time: Time.Amount
     
     @Published var weekProgress: CGFloat = 0.0
     @Published var dayProgress: CGFloat = 0.0
     @Published var hoursProgress: CGFloat = 0.0
     @Published var minutesProgress: CGFloat = 0.0
     @Published var secondsProgress: CGFloat = 0.0
+    
+    @Published var timeComponents: Time.Components = [.week, .day, .hour, .minute]
         
-    init(withTime time: Time.Amount) {
-        self.time = time
-        $time.sink { newTime in
-            self.updateViewOnTimeChange(newTime)
-        }
-        .store(in: &store)
+    init(withTime time: Time.Amount,
+         withTimeComponents timeComponents: Time.Components = [.week, .day, .hour, .minute]) {
+        self.timeComponents = timeComponents
+        updateViewOnTimeChange(time)
     }
     
     func updateViewOnTimeChange(_ newTime: Time.Amount) {
@@ -34,7 +34,7 @@ class MultiArcViewModel: ObservableObject {
         weekProgress = CGFloat((newTime.week ?? 1) - 1) * (100 / 7) + (dayProgress / 7)
     }
     
-    var description: String {
+    private var description: String {
         """
         \(weekProgress)
         \(dayProgress)

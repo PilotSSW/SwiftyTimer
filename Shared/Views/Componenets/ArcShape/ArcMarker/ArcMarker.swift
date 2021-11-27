@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct ArcMarker: View {
-    @State var marker: String
-    @State var totalMarkers: Int
+    var lineLength: CGFloat = 20
+    var marker: String = ""
     
     var body: some View {
-//        VStack() {
-//            Text(marker)
-//                .rotationEffect(.degrees(-360 / Double(totalMarkers) * Double(index)))
-//            Spacer()
-//        }
-//        .padding()
-//        .rotationEffect(.degrees(360 / Double(totalMarkers) * Double(index)))
-        Text("")
+        Marker(lineLength: lineLength)
+            .stroke(lineWidth: 5)
     }
 }
 
 struct ArcMarker_Previews: PreviewProvider {
     static var previews: some View {
-        ArcMarker(marker: "Marker", totalMarkers: 4)
+        ZStack {
+            ArcMarker(lineLength: 40, marker: "Marker")
+        }
+            .previewLayout(.sizeThatFits)
     }
 }

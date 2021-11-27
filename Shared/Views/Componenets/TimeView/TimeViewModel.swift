@@ -10,7 +10,6 @@ import Foundation
 
 class TimeViewModel: ObservableObject {
     private var store = Set<AnyCancellable>()
-//    @Published private var time: Time.Amount
     private var formatter = NumberFormatter()
     
     @Published private(set) var timeComponents: Time.Components
@@ -24,30 +23,71 @@ class TimeViewModel: ObservableObject {
     @Published private(set) var seconds: String = ""
     @Published private(set) var milliseconds: String = ""
     
+    @Published private(set) var displayTimeRowOne: String = ""
+    @Published private(set) var displayTimeRowTwo: String = ""
+
+    
     init(withTime time: Time.Amount,
          shownComponents: Time.Components = .timeOnly
     ) {
         timeComponents = shownComponents
-//        self.time = time
-//        $time.sink { newTime in
-            self.updateViewOnTimeChange(time)
-//        }
-//        .store(in: &store)
+        updateViewOnTimeChange(time)
         
         formatter.numberStyle = .spellOut
     }
     
     func updateViewOnTimeChange(_ newTime: Time.Amount) {
-        self.year = String(newTime.year)
-        self.month = String(newTime.month)
-        self.week = String(newTime.week)
-        self.days = String(newTime.days)
+        self.year = newTime.year != nil ? "\(newTime.year!)" : ""
+        self.month = newTime.month != nil ? "\(newTime.month!)" : ""
+        self.week = newTime.week != nil ? "\(newTime.week!)" : ""
+        self.days = newTime.days != nil ? "\(newTime.days!)" : ""
         if let hours = newTime.hours {
             let isPM = hours >= 13
             self.hours = String(format: "%02d", isPM ? hours - 12 : hours)
         }
         if let minutes = newTime.minutes { self.minutes = String(format: "%02d", minutes) }
         self.seconds = String(format: "%02d", newTime.seconds)
-        if let milliseconds = newTime.milliseconds { self.milliseconds = String(format: "%.f", milliseconds / 100000) }
+        if let milliseconds = newTime.milliseconds { self.milliseconds = String(format: "%.0f", milliseconds) }
+        
+        setDisplayStrings()
+    }
+}
+
+extension TimeViewModel {
+    private func setDisplayStrings() {
+        displayTimeRowOne = ""
+        displayTimeRowTwo = ""
+        
+        if timeComponents.contains(.month) {
+            displayTimeRowOne += "\(month)/"
+        }
+
+        if timeComponents.contains(.day) {
+            displayTimeRowOne += "\(days)"
+        }
+
+        if timeComponents.contains(.year) {
+            displayTimeRowOne += "/\(year)"
+        }
+
+        if timeComponents.contains(.week) {
+            displayTimeRowOne += ", Week: \(week)"
+        }
+        
+        if timeComponents.contains(.hour) {
+            displayTimeRowTwo += "\(hours):"
+        }
+
+        if timeComponents.contains(.minute) {
+            displayTimeRowTwo += "\(minutes)"
+        }
+
+        if timeComponents.contains(.second) {
+            displayTimeRowTwo += ":\(seconds)"
+        }
+
+        if timeComponents.contains(.millisecond) {
+            displayTimeRowTwo += ".\(milliseconds)"
+        }
     }
 }

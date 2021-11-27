@@ -7,8 +7,14 @@
 
 import Combine
 import Foundation
+import struct SwiftUI.CGFloat
 
-class ClockViewModel: ObservableObject {
+class ClockViewModel: ObservableObject, Equatable {
+    static func == (lhs: ClockViewModel, rhs: ClockViewModel) -> Bool {
+        lhs.id == rhs.id
+    }
+    private var id = UUID()
+    
     var store = Set<AnyCancellable>()
     let timeKeeperService: TimeKeeperService
     private var serviceTag: UUID?
@@ -16,6 +22,14 @@ class ClockViewModel: ObservableObject {
     @Published var time: Time.Amount
     @Published var multiArcViewModel: MultiArcViewModel?
     @Published var timeViewModel: TimeViewModel?
+    
+    var clockPadding: CGFloat {
+        guard let multiArcViewModel = multiArcViewModel else {
+            return 0.0
+        }
+
+        return CGFloat(Array(multiArcViewModel.timeComponents.elements()).count) * 23.3333
+    }
     
     init(timeKeeperService: TimeKeeperService = ServiceContainer.get().timeKeeperService) {
         self.timeKeeperService = timeKeeperService
@@ -27,7 +41,7 @@ class ClockViewModel: ObservableObject {
     func start() {
         time = Time.Amount(totalSeconds: 0)
         multiArcViewModel = MultiArcViewModel(withTime: time)
-        timeViewModel = TimeViewModel(withTime: time)
+        timeViewModel = TimeViewModel(withTime: time, shownComponents: [.calendarDate, .hour, .minute, .second])
         
         do {
             serviceTag = try timeKeeperService.registerTimerNotification({ [weak self] in

@@ -8,19 +8,27 @@
 import SwiftUI
 
 struct ArcMarkers: View {
-    @State var markers: [Any] = []
+    var markerCount: Int
+    var totalRange: Angle = .degrees(300)
     
     var body: some View {
-        ZStack {
-            ForEach(Array(markers.enumerated()), id: \.offset) { (index, marker) in
-                ArcMarker(marker: "\(marker)", totalMarkers: markers.count)
-            }
-        }
+//        ZStack {
+//            ForEach(values: 0..<markerCount) { index in
+//                let rotation: Double = index == 0
+//                    ? 0.0
+//                    : Double(totalRange.degrees / (index / markerCount))
+//
+//                Marker(lineLength: 2)
+//                    .rotationEffect(.degrees(rotation))
+//            }
+//        }
+        Text("")
     }
 }
 
 struct ArcMarkers_Previews: PreviewProvider {
     static var previews: some View {
-        ArcMarkers(markers: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+        ArcMarkers(markerCount: 7)
+            .frame(width: 200, height: 200, alignment: .center)
     }
 }

@@ -22,6 +22,7 @@ final class Time: ObservableObject {
         
         static let timeOnly: Components = [.hour, .minute, .second]
         static let calendarDate: Components = [.year, .month, .day]
+        static let all: Components = [.year, .month, .week, .day, .hour, .minute, .second, .millisecond]
     }
     
     final class Amount: ObservableObject {
@@ -51,6 +52,18 @@ final class Time: ObservableObject {
             self.minutes = minutes
             self.seconds = seconds
             self.milliseconds = milliseconds
+        }
+        
+        init(fromDate date: Date) {
+            let components = Calendar.current.dateComponents([.year, .month, .weekday, .weekdayOrdinal, .day, .hour, .minute, .second, .nanosecond], from: date)
+            year = components.year
+            month = components.month
+            week = components.weekday ?? 0
+            days = components.day ?? 0
+            hours = components.hour ?? 0
+            minutes = components.minute ?? 0
+            seconds = components.second ?? 0
+            milliseconds = Double(components.nanosecond ?? 0) / 100000
         }
         
         convenience init(totalSeconds: Double) {
@@ -86,14 +99,14 @@ final class Time: ObservableObject {
         
         var description: String {
             """
-            \(String(describing: year)) \n
-            \(String(describing: month)) \n
-            \(String(describing: week)) \n
-            \(String(describing: days)) \n
-            \(String(describing: hours)) \n
-            \(String(describing: minutes)) \n
-            \(String(describing: seconds)) \n
-            \(String(describing: milliseconds)) \n
+            Year: \(String(describing: year))
+            Month: \(String(describing: month))
+            Week: \(String(describing: week))
+            Day: \(String(describing: days))
+            Hour: \(String(describing: hours))
+            Minute: \(String(describing: minutes))
+            Second: \(String(describing: seconds))
+            MilliSecond: \(String(describing: milliseconds))
             """
         }
     }
@@ -118,7 +131,7 @@ final class Time: ObservableObject {
         }
         
         seconds = Int(remainingSeconds)
-        milliseconds = remainingSeconds.truncatingRemainder(dividingBy: 1) * 1000
+        milliseconds = remainingSeconds.truncatingRemainder(dividingBy: 1) * 10000
         
         return (days: days, hours: hours, minutes: minutes, seconds: seconds, milliseconds: milliseconds)
     }

@@ -71,9 +71,6 @@
 		A3236BA42723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
 		A3236BA52723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
 		A3236BA62723484E009CEF8E /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA22723484E009CEF8E /* AttributedText.swift */; };
-		A3236BA827235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
-		A3236BA927235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
-		A3236BAA27235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
 		A3236BAB27235198009CEF8E /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
 		A3236BAD27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
 		A3236BAE27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BAC27235AFF009CEF8E /* NeumorphicButtonStyle.swift */; };
@@ -115,6 +112,23 @@
 		A3236BE12723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
 		A3236BE22723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
 		A3236BE32723D97A009CEF8E /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */; };
+		A324E5CB2729B95A002E6643 /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3236BA727235198009CEF8E /* StrokedText.swift */; };
+		A359E18C272713B4006B96F1 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */; };
+		A359E18D272713BD006B96F1 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */; };
+		A359E18E272713BD006B96F1 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */; };
+		A359E18F272713BE006B96F1 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */; };
+		A359E192272792F0006B96F1 /* SliderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E191272792F0006B96F1 /* SliderSwitch.swift */; };
+		A359E193272792F1006B96F1 /* SliderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E191272792F0006B96F1 /* SliderSwitch.swift */; };
+		A359E194272792F1006B96F1 /* SliderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E191272792F0006B96F1 /* SliderSwitch.swift */; };
+		A359E195272792F1006B96F1 /* SliderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E191272792F0006B96F1 /* SliderSwitch.swift */; };
+		A359E19727279363006B96F1 /* SliderSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */; };
+		A359E19827279363006B96F1 /* SliderSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */; };
+		A359E19927279363006B96F1 /* SliderSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */; };
+		A359E19A27279363006B96F1 /* SliderSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */; };
+		A3C3CDF22752BF960025F19C /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */; };
+		A3C3CDF32752BF960025F19C /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */; };
+		A3C3CDF42752BF960025F19C /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */; };
+		A3C3CDF52752BF960025F19C /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */; };
 		A3F7549A272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
 		A3F7549B272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
 		A3F7549C272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */; };
@@ -143,6 +157,10 @@
 		A3F754BA2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
 		A3F754BB2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
 		A3F754BC2724E9630092A6D8 /* ArcMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754B82724E9630092A6D8 /* ArcMarkers.swift */; };
+		A3F754BF272712470092A6D8 /* MultiArcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754BE272712470092A6D8 /* MultiArcLabel.swift */; };
+		A3F754C0272712470092A6D8 /* MultiArcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754BE272712470092A6D8 /* MultiArcLabel.swift */; };
+		A3F754C1272712470092A6D8 /* MultiArcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754BE272712470092A6D8 /* MultiArcLabel.swift */; };
+		A3F754C2272712470092A6D8 /* MultiArcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F754BE272712470092A6D8 /* MultiArcLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,6 +219,10 @@
 		A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiArcViewModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A3236BD92723C060009CEF8E /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
 		A3236BDF2723D97A009CEF8E /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtensions.swift; sourceTree = "<group>"; };
+		A359E191272792F0006B96F1 /* SliderSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwitch.swift; sourceTree = "<group>"; };
+		A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwitchViewModel.swift; sourceTree = "<group>"; };
+		A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
 		A3F75499272481CD0092A6D8 /* InterfaceSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSelectorView.swift; sourceTree = "<group>"; };
 		A3F7549E272481F70092A6D8 /* InterfaceSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSelectorViewModel.swift; sourceTree = "<group>"; };
 		A3F754A32724835D0092A6D8 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
@@ -208,6 +230,7 @@
 		A3F754AE2724DE320092A6D8 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		A3F754B32724E6910092A6D8 /* ArcMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMarker.swift; sourceTree = "<group>"; };
 		A3F754B82724E9630092A6D8 /* ArcMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMarkers.swift; sourceTree = "<group>"; };
+		A3F754BE272712470092A6D8 /* MultiArcLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiArcLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,8 +369,10 @@
 		A3236B8B27233017009CEF8E /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A359E18B272713B4006B96F1 /* SwiftUIExtensions.swift */,
 				A3236B80272322B7009CEF8E /* AngleHelper.swift */,
 				A3236BB127235B35009CEF8E /* AppColor.swift */,
+				A359E190272792B6006B96F1 /* Buttons */,
 				A3236B8C27233025009CEF8E /* Neumorphic */,
 				A3236B9227233051009CEF8E /* ShadowIntensity.swift */,
 				A3236B7A272320F1009CEF8E /* Shapes */,
@@ -381,6 +406,7 @@
 			children = (
 				A3236BC027236360009CEF8E /* CountdownTimer.swift */,
 				A3236B602723111E009CEF8E /* RepeatingTimer.swift */,
+				A3C3CDF12752BF960025F19C /* PomodoroTimer.swift */,
 			);
 			path = Timers;
 			sourceTree = "<group>";
@@ -415,6 +441,7 @@
 		A3236BD32723B500009CEF8E /* MultiArcView */ = {
 			isa = PBXGroup;
 			children = (
+				A3F754BD2727122F0092A6D8 /* MultiArcLabel */,
 				A3236BCE2723B4BC009CEF8E /* MultiArcView.swift */,
 				A3236BD42723B51E009CEF8E /* MultiArcViewModel.swift */,
 			);
@@ -449,6 +476,15 @@
 			path = Interfaces;
 			sourceTree = "<group>";
 		};
+		A359E190272792B6006B96F1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A359E191272792F0006B96F1 /* SliderSwitch.swift */,
+				A359E19627279363006B96F1 /* SliderSwitchViewModel.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		A3F754972724814C0092A6D8 /* ArcShape */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +511,14 @@
 				A3F754B82724E9630092A6D8 /* ArcMarkers.swift */,
 			);
 			path = ArcMarker;
+			sourceTree = "<group>";
+		};
+		A3F754BD2727122F0092A6D8 /* MultiArcLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A3F754BE272712470092A6D8 /* MultiArcLabel.swift */,
+			);
+			path = MultiArcLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,24 +681,28 @@
 			files = (
 				A3236BD52723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
 				A3F754A42724835D0092A6D8 /* ClockView.swift in Sources */,
+				A3F754BF272712470092A6D8 /* MultiArcLabel.swift in Sources */,
 				A3236B9827233455009CEF8E /* VisualEffectBlur.swift in Sources */,
 				A3236BB727235C3A009CEF8E /* TimerControlsView.swift in Sources */,
 				A3236BDA2723C060009CEF8E /* ServiceContainer.swift in Sources */,
 				A3236BC127236360009CEF8E /* CountdownTimer.swift in Sources */,
 				A3236BB227235B35009CEF8E /* AppColor.swift in Sources */,
 				A3236BC6272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
+				A359E18C272713B4006B96F1 /* SwiftUIExtensions.swift in Sources */,
 				A3F754B92724E9630092A6D8 /* ArcMarkers.swift in Sources */,
 				A3236B47272310D3009CEF8E /* Timer.xcdatamodeld in Sources */,
 				A3F754B42724E6910092A6D8 /* ArcMarker.swift in Sources */,
 				A3F754AF2724DE320092A6D8 /* Marker.swift in Sources */,
 				A3236B4D272310D3009CEF8E /* Persistence.swift in Sources */,
 				A3236B7627231D0F009CEF8E /* ArcView.swift in Sources */,
+				A3C3CDF22752BF960025F19C /* PomodoroTimer.swift in Sources */,
 				A3236B712723144A009CEF8E /* Time.swift in Sources */,
 				A3236B49272310D3009CEF8E /* TimerApp.swift in Sources */,
 				A3236BAD27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
+				A359E19727279363006B96F1 /* SliderSwitchViewModel.swift in Sources */,
 				A3236BBC27236262009CEF8E /* TimeKeeperService.swift in Sources */,
+				A359E192272792F0006B96F1 /* SliderSwitch.swift in Sources */,
 				A3236B87272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
-				A3236BA827235198009CEF8E /* StrokedText.swift in Sources */,
 				A3236B8E27233038009CEF8E /* NeumorphicShadow.swift in Sources */,
 				A3236BE02723D97A009CEF8E /* TimeViewModel.swift in Sources */,
 				A3236BA32723484E009CEF8E /* AttributedText.swift in Sources */,
@@ -680,8 +728,10 @@
 				A3236BB827235C3A009CEF8E /* TimerControlsView.swift in Sources */,
 				A3F754B52724E6910092A6D8 /* ArcMarker.swift in Sources */,
 				A3236BC227236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A324E5CB2729B95A002E6643 /* StrokedText.swift in Sources */,
 				A3236BE12723D97A009CEF8E /* TimeViewModel.swift in Sources */,
 				A3236BB327235B35009CEF8E /* AppColor.swift in Sources */,
+				A359E18D272713BD006B96F1 /* SwiftUIExtensions.swift in Sources */,
 				A3236BC7272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
 				A3236B48272310D3009CEF8E /* Timer.xcdatamodeld in Sources */,
 				A3F754AA2724836B0092A6D8 /* ClockViewModel.swift in Sources */,
@@ -689,6 +739,7 @@
 				A3236B7727231D0F009CEF8E /* ArcView.swift in Sources */,
 				A3F754BA2724E9630092A6D8 /* ArcMarkers.swift in Sources */,
 				A3236B722723144A009CEF8E /* Time.swift in Sources */,
+				A359E19827279363006B96F1 /* SliderSwitchViewModel.swift in Sources */,
 				A3F7549B272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
 				A3236B4A272310D3009CEF8E /* TimerApp.swift in Sources */,
 				A3236BAE27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
@@ -696,7 +747,6 @@
 				A3236BBD27236262009CEF8E /* TimeKeeperService.swift in Sources */,
 				A3F754A0272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
 				A3236B88272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
-				A3236BA927235198009CEF8E /* StrokedText.swift in Sources */,
 				A3236BD02723B4BC009CEF8E /* MultiArcView.swift in Sources */,
 				A3236B8F27233038009CEF8E /* NeumorphicShadow.swift in Sources */,
 				A3236BA42723484E009CEF8E /* AttributedText.swift in Sources */,
@@ -707,9 +757,12 @@
 				A3236BDB2723C060009CEF8E /* ServiceContainer.swift in Sources */,
 				A3236B6D27231164009CEF8E /* TimeView.swift in Sources */,
 				A3236B4C272310D3009CEF8E /* ContentView.swift in Sources */,
+				A3F754C0272712470092A6D8 /* MultiArcLabel.swift in Sources */,
 				A3F754B02724DE320092A6D8 /* Marker.swift in Sources */,
 				A3236B9427233051009CEF8E /* ShadowIntensity.swift in Sources */,
 				A3236B82272322B7009CEF8E /* AngleHelper.swift in Sources */,
+				A359E193272792F1006B96F1 /* SliderSwitch.swift in Sources */,
+				A3C3CDF32752BF960025F19C /* PomodoroTimer.swift in Sources */,
 				A3236B622723111E009CEF8E /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,6 +786,7 @@
 				A3F7549C272481CD0092A6D8 /* InterfaceSelectorView.swift in Sources */,
 				A3236B9A27233455009CEF8E /* VisualEffectBlur.swift in Sources */,
 				A3236BD72723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
+				A359E18E272713BD006B96F1 /* SwiftUIExtensions.swift in Sources */,
 				A3236BC327236360009CEF8E /* CountdownTimer.swift in Sources */,
 				A3236BD12723B4BC009CEF8E /* MultiArcView.swift in Sources */,
 				A3236B732723144A009CEF8E /* Time.swift in Sources */,
@@ -741,15 +795,18 @@
 				A3236B632723111E009CEF8E /* RepeatingTimer.swift in Sources */,
 				A3236B89272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
 				A3F754BB2724E9630092A6D8 /* ArcMarkers.swift in Sources */,
-				A3236BAA27235198009CEF8E /* StrokedText.swift in Sources */,
+				A359E194272792F1006B96F1 /* SliderSwitch.swift in Sources */,
 				A3236BAF27235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,
+				A3F754C1272712470092A6D8 /* MultiArcLabel.swift in Sources */,
 				A3236B38272310D3009CEF8E /* Tests_iOS.swift in Sources */,
 				A3F754A1272481F70092A6D8 /* InterfaceSelectorViewModel.swift in Sources */,
 				A3236BDC2723C060009CEF8E /* ServiceContainer.swift in Sources */,
+				A3C3CDF42752BF960025F19C /* PomodoroTimer.swift in Sources */,
 				A3F754A62724835D0092A6D8 /* ClockView.swift in Sources */,
 				A3236B692723113F009CEF8E /* StopwatchTimerView.swift in Sources */,
 				A3236BB427235B35009CEF8E /* AppColor.swift in Sources */,
 				A3F754B12724DE320092A6D8 /* Marker.swift in Sources */,
+				A359E19927279363006B96F1 /* SliderSwitchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,14 +829,19 @@
 				A3236BA027233582009CEF8E /* WindowAccessor.swift in Sources */,
 				A3236BC9272365B3009CEF8E /* StopwatchTimerViewModel.swift in Sources */,
 				A3236B7927231D0F009CEF8E /* ArcView.swift in Sources */,
+				A359E18F272713BE006B96F1 /* SwiftUIExtensions.swift in Sources */,
+				A3C3CDF52752BF960025F19C /* PomodoroTimer.swift in Sources */,
 				A3236B9B27233455009CEF8E /* VisualEffectBlur.swift in Sources */,
 				A3236BC427236360009CEF8E /* CountdownTimer.swift in Sources */,
+				A359E19A27279363006B96F1 /* SliderSwitchViewModel.swift in Sources */,
+				A359E195272792F1006B96F1 /* SliderSwitch.swift in Sources */,
 				A3236B742723144A009CEF8E /* Time.swift in Sources */,
 				A3236BDD2723C060009CEF8E /* ServiceContainer.swift in Sources */,
 				A3236BA62723484E009CEF8E /* AttributedText.swift in Sources */,
 				A3236BD82723B51E009CEF8E /* MultiArcViewModel.swift in Sources */,
 				A3236BBA27235C3A009CEF8E /* TimerControlsView.swift in Sources */,
 				A3236B642723111E009CEF8E /* RepeatingTimer.swift in Sources */,
+				A3F754C2272712470092A6D8 /* MultiArcLabel.swift in Sources */,
 				A3236B8A272328C1009CEF8E /* SwiftExtensions.swift in Sources */,
 				A3236BAB27235198009CEF8E /* StrokedText.swift in Sources */,
 				A3236BB027235AFF009CEF8E /* NeumorphicButtonStyle.swift in Sources */,

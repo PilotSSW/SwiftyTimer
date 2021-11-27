@@ -20,49 +20,23 @@ struct TimeView: View {
 
     var body: some View {
         VStack(alignment: .center, spacing: 8) {
-            HStack(alignment: .center, spacing: 2) {
-                if viewModel.timeComponents.contains(.month) {
-                    Text("\(viewModel.month)/")
-                }
-                
-                if viewModel.timeComponents.contains(.day) {
-                    Text(viewModel.days)
-                }
-                
-                if viewModel.timeComponents.contains(.year) {
-                    Text("/\(viewModel.days) ")
-                }
-                
-                if viewModel.timeComponents.contains(.week) {
-                    Text("Week \(viewModel.week)")
-                }
+            if !viewModel.displayTimeRowOne.isEmpty {
+                Text(viewModel.displayTimeRowOne)
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .center)
             }
-            HStack(alignment: .center, spacing: 2) {
-                if viewModel.timeComponents.contains(.hour) {
-                    Text(viewModel.hours)
-                    Text(":")
-                }
-                
-                if viewModel.timeComponents.contains(.minute) {
-                    Text(viewModel.minutes)
-                    Text(":")
-                }
-                
-                if viewModel.timeComponents.contains(.second) {
-                    Text(viewModel.seconds)
-                }
-                
-                if viewModel.timeComponents.contains(.millisecond) {
-                    Text(viewModel.milliseconds)
-                }
+            
+            if !viewModel.displayTimeRowTwo.isEmpty {
+                Text(viewModel.displayTimeRowTwo)
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .center)
             }
         }
-        .shadow(color: .white, radius: 1.5)
         .foregroundColor(textColor)
         .allowsTightening(true)
         .minimumScaleFactor(0.10)
         .font(.system(size: 140, weight: .bold, design: .rounded))
-        .multilineTextAlignment(.center)
+        .shadow(color: .white, radius: 1.5)
     }
 }
 

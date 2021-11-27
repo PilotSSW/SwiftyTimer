@@ -30,7 +30,7 @@ struct TimerApp: App {
                 Color(.displayP3, red: 20/255, green: 20/255, blue: 20/255, opacity: 0.5)
                     .ignoresSafeArea()
 
-                ClockView()
+                InterfaceSelector(viewModel: InterfaceSelectorViewModel())
                     .environment(\.managedObjectContext, persistenceController.container.viewContext)
                     .environmentObject(timeKeeperService)
             }
@@ -43,12 +43,12 @@ struct TimerApp: App {
         #else
         WindowGroup {
             ZStack {
-                VisualEffectBlur(material: .underWindowBackground,
-                                 blendingMode: .behindWindow,
-                                 state: .active)
+                Color(.displayP3, red: 35/255, green: 35/255, blue: 35/255, opacity: 1.0)
+                    .edgesIgnoringSafeArea(.all)
                 
-                TimerView()
+                InterfaceSelector(viewModel: InterfaceSelectorViewModel())
                     .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    .environmentObject(timeKeeperService)
             }
             .frame(minWidth: 150, maxWidth: 1400, minHeight: 150, maxHeight: 1400)
         }
