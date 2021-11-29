@@ -109,6 +109,15 @@ final class Time: ObservableObject {
             MilliSecond: \(String(describing: milliseconds))
             """
         }
+        
+        func toSeconds() -> Double {
+            milliseconds / 1000 +
+            seconds +
+            minutes * 60 +
+            hours * 3600 +
+            days * 86400 +
+            (week * 86400 * 7) 
+        }
     }
     
     static func daysHoursMinutesSecondsFromTotalSeconds(_ totalSeconds: Double) -> (days: Int, hours: Int, minutes: Int, seconds: Int, milliseconds: Double) {

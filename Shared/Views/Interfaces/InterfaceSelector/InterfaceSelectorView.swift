@@ -16,17 +16,20 @@ struct InterfaceSelector: View {
                 if viewModel.selectedInterface == .clock{
                     ClockView(withViewModel: viewModel.clockViewModel)
                         .transition(.opacity)
+                        .layoutPriority(1.0)
                 }
                 else if viewModel.selectedInterface == .stopWatch {
                     StopWatchTimerView(viewModel: viewModel.stopWatchViewModel)
                         .transition(.opacity)
+                        .layoutPriority(1.0)
                 }
             }
 
             SliderSwitch(viewModel: viewModel.sliderSwitchViewModel)
-                .frame(maxWidth: .infinity, maxHeight: 32, alignment: .center)
+                .frame(maxWidth: .infinity, minHeight: 36, maxHeight: 56, alignment: .center)
                 .padding(12)
         }
+        .aspectRatio(0.85, contentMode: .fit)
         .animation(.interactiveSpring(response: 0.35, dampingFraction: 0.78, blendDuration: 0.75))
     }
 }

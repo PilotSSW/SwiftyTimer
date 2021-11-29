@@ -40,8 +40,7 @@ struct StopWatchTimerView: View {
                               pauseAction: viewModel.pause,
                               stopAction: viewModel.stop)
         }
-        .padding(20)
-        .aspectRatio(0.85, contentMode: .fit)
+        .padding(4)
         .animation(.interactiveSpring())
     }
 }

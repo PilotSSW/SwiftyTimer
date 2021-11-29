@@ -13,7 +13,7 @@ class SliderSwitchViewModel: ObservableObject {
     @Published private(set) var options: [SliderOption] = []
     @Published var selectedIndex: Int = 0
     
-    @Published var selectedButtonXPosition: CGFloat = 60.0
+    @Published var selectedButtonXPosition: CGFloat = 84.0
     
     init(withOptions options: [SliderOption] = []) {
         setOptions(options)
@@ -30,7 +30,11 @@ class SliderSwitchViewModel: ObservableObject {
                 : option.onDeselect?()
         })
         
-        selectedButtonXPosition = CGFloat((selectedIndex + 1) * 128) - 68
+        let buttonIndex: CGFloat = CGFloat(selectedIndex) + 1.0
+        let width = CGFloat(168)
+        let offset: CGFloat = width / 2 - CGFloat(8 * selectedIndex)
+        
+        selectedButtonXPosition = (buttonIndex * width) - offset
     }
     
     func setOptions(_ options: [SliderOption]) {

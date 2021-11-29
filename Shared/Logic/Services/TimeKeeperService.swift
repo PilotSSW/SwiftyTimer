@@ -15,12 +15,12 @@ enum TimeKeeperError: Error {
 
 class TimeKeeperService: ObservableObject {
     private var timer: Timer = Timer()
-    private var subscriptions: [UUID: (callback: (() -> Void), allowsGlobalDispatchQueue: Bool)] = [:]
+    private var subscriptions: [UUID: (callback: ((TimeInterval) -> Void), allowsGlobalDispatchQueue: Bool)] = [:]
     
     init() {
         self.timer = Timer.scheduledTimer(withTimeInterval: 1 / 30, repeats: true, block: { [weak self] timer in
             guard let self = self else { return }
-            self.callRegisteredCallbacks()
+            self.callRegisteredCallbacks(timer.timeInterval)
         })
         timer.tolerance = 1 / 240
     }
@@ -29,7 +29,7 @@ class TimeKeeperService: ObservableObject {
 /// MARK: Public calling functions
 extension TimeKeeperService {
     func registerTimerNotification(allowsGlobalDispatchQueue: Bool = false,
-                                   _ callback: @escaping (() -> Void)) throws -> UUID {
+                                   _ callback: @escaping ((TimeInterval) -> Void)) throws -> UUID {
         let key = UUID()
         
         if subscriptions[key] != nil {
@@ -54,7 +54,7 @@ extension TimeKeeperService {
 
 /// MARK: Private internal functions
 extension TimeKeeperService {
-    private func callRegisteredCallbacks() {
+    private func callRegisteredCallbacks(_ timeInterval: TimeInterval) {
         subscriptions.forEach({
             let callback = $0.value.callback
             let allowsGlobalDispatchQueue = $0.value.allowsGlobalDispatchQueue
@@ -64,7 +64,7 @@ extension TimeKeeperService {
                 : DispatchQueue.main
             
             dispatchQueue.async {
-                callback()
+                callback(timeInterval)
             }
         })
     }
